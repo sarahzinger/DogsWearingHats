@@ -1,0 +1,23 @@
+body{
+	font-family: 'Roboto Condensed', serif;
+
+
+}
+#title{
+	text-align: center;
+	font-size: 300%;
+}
+
+#instructions{
+	width: 50%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 30px;
+	border: 2px solid;
+}
+#agree{
+	margin:5px;
+	border: 2px solid;
+}
