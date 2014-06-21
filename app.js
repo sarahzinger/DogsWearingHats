@@ -3,7 +3,7 @@
 var showPic = function(pic){
 
   //clone our result template code
-  var result = $(".dog").clone();
+  var result = $(".template dog").clone();
 
   //displays text of tweet
   var dogPic = result.find('.dog');
@@ -29,7 +29,7 @@ OAuth.popup('instagram', function(error, result){
 		console.log('in each');
 		var pic = showPic(item);
 		console.log('got pic');
-      	$('.dog').append(pic);
+      	$('.results').append(pic);
 	});
 	
 
