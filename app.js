@@ -2,9 +2,8 @@
 OAuth.initialize('z1jbL8uDBlOVkjU4Czw1Up51u5c');
 OAuth.popup('Instagram', function(error, success){
   // See the result below
+alert(error);
 
-
-  console.log(success);
 });
 
 var showPic = function(pic){
