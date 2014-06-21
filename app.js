@@ -24,7 +24,7 @@ OAuth.popup('instagram', function(error, result){
   	}
 	result.get("https://api.instagram.com/v1/tags/dogsinhats/media/recent?max_id=01%2F01%2F2010").done(function(data){
 	obj_to_explore = data;
-	$.each(data.items, function(i, item) {
+	$.each(data.data, function(i, item) {
 		var pic = showPic(item);
       	$('.dog').append(pic);
 	});
