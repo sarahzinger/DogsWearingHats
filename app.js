@@ -7,7 +7,7 @@ var showPic = function(pic){
 
   //displays text of tweet
   var dogPic = result.find('.dog');
-  dogPic.attr('src', data.images.standard_resolution);
+  dogPic.attr('src', pic.images.standard_resolution);
 
   return result;
  };
