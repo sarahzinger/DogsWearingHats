@@ -8,6 +8,7 @@ var showPic = function(pic){
   //displays text of tweet
   var dogPic = result.find('.dog');
   dogPic.attr('src', pic.images.standard_resolution);
+  console.log('In showPic');
 
   return result;
  };
@@ -25,7 +26,9 @@ OAuth.popup('instagram', function(error, result){
 	result.get("https://api.instagram.com/v1/tags/dogsinhats/media/recent").done(function(data){
 	obj_to_explore = data;
 	$.each(data.data, function(i, item) {
+		console.log('in each');
 		var pic = showPic(item);
+		console.log('got pic');
       	$('.dog').append(pic);
 	});
 	
