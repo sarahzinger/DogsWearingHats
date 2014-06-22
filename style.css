@@ -9,7 +9,7 @@ body{
 }
 
 #instructions{
-	display: none;
+	
 	width: 50%;
 	margin-top: 10%;
 	margin-left: auto;
@@ -21,7 +21,7 @@ body{
 #agree{
 	margin:5px;
 	border: 2px solid;
-	display: none;
+	
 }
 
 .dog{
@@ -33,6 +33,7 @@ body{
 	
 }
 .results{
+	display: none;
 	margin-right: auto;
 	margin-left: auto;
 	width: 80%;
