@@ -32,7 +32,9 @@ body{
 	margin: 10px;
 }
 .results{
-	margin: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
 }
 #dogTemplate{
 	display:none;
