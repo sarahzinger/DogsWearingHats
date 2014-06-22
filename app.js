@@ -30,7 +30,6 @@ $(document).ready( function() {
   $("#agree").click(function(){
     $("#agree").hide();
     $("#instructions").hide();
-    $(".results").show("slow")
-    });
+    $(".results").show("slow");
   });
 });
