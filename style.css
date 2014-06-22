@@ -30,12 +30,13 @@ body{
 	height: 150px;
 	width:150px;
 	margin: 10px;
-	text-align: center;
+	
 }
 .results{
 	margin-right: auto;
 	margin-left: auto;
-	width: 70%;
+	width: 80%;
+	text-align: center;
 }
 #dogTemplate{
 	display:none;
