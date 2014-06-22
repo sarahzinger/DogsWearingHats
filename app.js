@@ -28,8 +28,8 @@ $(document).ready( function() {
     });
   });
   $("#agree").click(function(){
-    $("#agree").hide();
-    $("#instructions").hide();
+    $("#agree").hide(1000);
+    $("#instructions").hide(1000);
     $(".results").show("slow");
   });
 });
