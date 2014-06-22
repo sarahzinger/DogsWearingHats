@@ -9,8 +9,6 @@ var showPic = function(pic){
   dogPic.attr('src', pic.images.standard_resolution.url);
 
   dogPic.attr('id', pic.images.standard_resolution.url);
-  console.log(pic.images.standard_resolution.url);
-  obj_to_explore=dogPic;
 
   return dogPic;
  };
