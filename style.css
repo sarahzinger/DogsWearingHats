@@ -21,6 +21,7 @@ body{
 #agree{
 	margin:5px;
 	border: 2px solid;
+	display: none;
 }
 #dogContainer{
 	height:70%;
@@ -45,5 +46,8 @@ body{
 	margin: 10px;
 }
 #dogTemplate{
+	display: none;
+}
+#dontshow{
 	display: none;
 }
