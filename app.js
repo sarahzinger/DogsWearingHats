@@ -30,6 +30,10 @@ $(document).ready( function() {
   $("#agree").click(function(){
     $("#agree").hide();
     $("#instructions").hide();
-    $(".results").show();
+    $(".results").animate({
+      opacity:'0.5',
+      height:'150px',
+      width:'150px'
+    });
   });
 });

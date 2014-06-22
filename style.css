@@ -32,16 +32,7 @@ body{
 	margin: 10px;
 	
 }
-.dog:hover {
-    cursor: pointer;
-    height:475px;
-    width: 350px;
-    transform:scale(1.5);
-    -ms-transform:scale(1.5); /* IE 9 */
-    -moz-transform:scale(1.5); /* Firefox */
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -o-transform:scale(1.5); /* Opera */
-}
+
 .results{
 	display: none;
 	margin-right: auto;
