@@ -2,16 +2,17 @@
 
 var showPic = function(pic){
 
-  //clone our result template code
-  var result = $(".template dog").clone();
+  //clone our dogPic template code
+  var dogPic = $("#dogTemplate").clone();
 
-  //displays text of tweet
-  var dogPic = result.find('.dog');
+  //displays dog pic
   dogPic.attr('src', pic.images.standard_resolution.url);
+
+  dogPic.attr('id', pic.images.standard_resolution.url);
   console.log(pic.images.standard_resolution.url);
   obj_to_explore=dogPic;
 
-  return result;
+  return dogPic;
  };
 
  var obj_to_explore;
