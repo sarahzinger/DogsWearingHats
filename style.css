@@ -40,6 +40,10 @@ body{
 	width: 80%;
 	text-align: center;
 }
+.dog:hover{
+	width:500px;
+	height:500px;
+}
 #dogTemplate{
 	display: none;
 }
