@@ -27,7 +27,7 @@ OAuth.popup('instagram', function(error, result){
   	}
 	result.get("https://api.instagram.com/v1/tags/dogsinhats/media/recent").done(function(data){
 	
-	$.each(data.data.slice(0,3), function(i, item) {
+	$.each(data.data, function(i, item) {
 		console.log('in each');
 		var pic = showPic(item);
 		console.log('got pic');
