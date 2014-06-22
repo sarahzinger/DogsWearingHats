@@ -47,4 +47,7 @@ body{
 #dogTemplate{
 	display:none;
 }
+img{
+	display: inline;
+}
 
