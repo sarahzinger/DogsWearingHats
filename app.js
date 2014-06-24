@@ -29,7 +29,7 @@ $(document).ready( function() {
       });
     });
   });
-  if (window.location.indexOf("#") == -1){
+  if (window.location.toString().indexOf("#") == -1){
     OAuth.redirect('instagram', "http://smuenzinger.github.io/DogsWearingHats/");
   }
 
