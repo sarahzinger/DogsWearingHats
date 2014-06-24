@@ -29,9 +29,9 @@ $(document).ready( function() {
       });
     });
   });
-     if (!success){
-      OAuth.redirect('instagram', "http://smuenzinger.github.io/DogsWearingHats/");
-    }
+  if (window.location.indexOf("#") == -1){
+    OAuth.redirect('instagram', "http://smuenzinger.github.io/DogsWearingHats/");
+  }
 
   $("#agree").click(function(){
     $("#agree").hide(1000);
