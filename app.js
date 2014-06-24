@@ -22,7 +22,7 @@ $(document).ready( function() {
   if(error){
       alert("Something funky happened!"+error);
     }
-    result.get("https://api.instagram.com/v1/tags/dogswearinghats/media/recent").done(function(data){
+    result.get("https://api.instagram.com/v1/tags/dogsinhats/media/recent").done(function(data){
       $.each(data.data, function(i, item) {
         var pic = showPic(item);
         $('.results').append(pic);
