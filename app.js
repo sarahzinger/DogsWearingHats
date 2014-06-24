@@ -11,13 +11,14 @@ var showPic = function(pic){
 
   return dogPic;
  };
-
+var success;
 $(document).ready( function() {
 // Initialize with your OAuth.io app public key
   OAuth.initialize('z1jbL8uDBlOVkjU4Czw1Up51u5c');
-  OAuth.redirect('instagram', "http://smuenzinger.github.io/DogsWearingHats/");
+ 
   OAuth.callback('instagram', function(error, result){
   // See the result below
+  success=result;
   if(error){
       alert("Something funky happened!"+error);
     }
@@ -28,6 +29,10 @@ $(document).ready( function() {
       });
     });
   });
+     if (!success){
+      OAuth.redirect('instagram', "http://smuenzinger.github.io/DogsWearingHats/");
+    }
+
   $("#agree").click(function(){
     $("#agree").hide(1000);
     $("#instructions").hide(1000);
